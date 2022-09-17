@@ -1,0 +1,80 @@
+
+/* header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 75px;
+    border-radius: 5px;
+}
+
+header *:not(li, img){
+    margin-top: 5%;
+}
+
+header img{
+    width: 15%;
+    height: max-content;
+    margin-top: 0;
+}
+
+header h3{
+    font-size: 50px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul>li>a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(177, 27, 27)
+}
+
+img{
+    width: 20%;
+}
+
+/* main */
+
+main{
+    height: 600px;
+}
+
+main > *{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+main > section > *{
+    width: 50%;
+}
+
+main h1{
+    font-size: 50px;
+    margin-top: 0%;
+}
+
+main h2{
+    margin-bottom: 1%;
+}
+
+/* first section */
+body> section{
+    height: 400px;
+}
+body> section> section{
+    display: flex;
+    flex-direction: row;
+}
+
+body>section>section>*{
+    width: 50%;
+}
+
